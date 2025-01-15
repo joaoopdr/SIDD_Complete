@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "209605444305",
+    "project_id": "sidd-427219",
+    "storage_bucket": "sidd-427219.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209605444305:android:ad6eaf4921a1c8b0b3bbf0",
+        "android_client_info": {
+          "package_name": "com.example.symptom_checker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8YSSWTIfAosRpxhwRmuHZU7jTOr8UwOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/bg_prescription_item"
+    android:layout_marginBottom="8dp">
+
+    <!-- Avatar do Médico -->
+    <ImageView
+        android:id="@+id/doctorAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Avatar do Médico"
+        android:src="@drawable/ic_info"
+        />
+
+    <!-- Informações da Receita -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/medicineNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Medicamento"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Status da Receita"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/dateAddedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data de Inclusão: Data"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

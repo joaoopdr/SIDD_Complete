@@ -1,0 +1,5 @@
+<!-- res/drawable/bg_button_picadas.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#79926C"/>
+    <corners android:radius="20dp"/>
+</shape>

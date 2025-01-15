@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters_array">
+        <item>Highest to Lowest Match</item>
+        <item>Lowest to Highest Match</item>
+        <item>Severity High to Low</item>
+        <item>Severity Low to High</item>
+    </string-array>
+</resources>

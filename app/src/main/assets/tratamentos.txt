@@ -1,0 +1,40 @@
+Vertigem Posicional Paroxística Benigna (VPPB): Tratamento para VPPB envolve manobras de reposicionamento (como a manobra de Epley), medicamentos para aliviar os sintomas e, em alguns casos, reabilitação vestibular.
+AIDS: O tratamento para AIDS inclui a terapia antirretroviral (TARV), que combina vários medicamentos para controlar a replicação do HIV e fortalecer o sistema imunológico.
+Acne: O tratamento para acne pode incluir tópicos (como peróxido de benzoíla e retinoides), antibióticos, isotretinoína para casos graves, e cuidados com a pele.
+Hepatite alcoólica: O tratamento para hepatite alcoólica pode incluir a interrupção do consumo de álcool, medicamentos corticosteroides, suplementação nutricional e, em casos graves, transplante de fígado.
+Alergia: O tratamento para alergias pode incluir antihistamínicos, descongestionantes, corticosteroides, imunoterapia (como vacinas para alergia), e evitar alérgenos.
+Artrite: O tratamento para artrite pode incluir anti-inflamatórios não esteroides (AINEs), corticosteroides, medicamentos modificadores da doença (DMARDs), fisioterapia e, em casos graves, cirurgia.
+Asma brônquica: O tratamento para asma inclui broncodilatadores, corticosteroides inalatórios, modificadores de leucotrienos, e controle de fatores desencadeantes.
+Espondilose cervical: O tratamento para espondilose cervical pode incluir analgésicos, fisioterapia, injeções de corticosteroides e, em alguns casos, cirurgia.
+Catapora (Varicela): O tratamento para catapora inclui antipiréticos, antihistamínicos para aliviar a coceira, e, em alguns casos, antivirais.
+Colestase crônica: O tratamento para colestase crônica pode incluir medicamentos para aliviar o prurido, suplementos vitamínicos, e, em alguns casos, cirurgia ou transplante de fígado.
+Resfriado comum: O tratamento para resfriado comum inclui repouso, hidratação, descongestionantes, analgésicos, e, às vezes, antihistamínicos.
+Dengue: O tratamento para dengue envolve repouso, hidratação, medicamentos para aliviar a dor (como paracetamol), e acompanhamento médico para monitorar complicações.
+Diabetes: O tratamento para diabetes inclui insulina (para diabetes tipo 1), medicamentos orais (para diabetes tipo 2), dieta, exercício, e monitoramento regular dos níveis de glicose no sangue.
+Hemorróidas (hemorroidas) dimórficas: O tratamento para hemorroidas pode incluir cremes tópicos, banhos de assento, anti-inflamatórios, e, em casos graves, procedimentos cirúrgicos.
+Reação a medicamentos: O tratamento para reações a medicamentos envolve interromper o medicamento causador, tratar os sintomas com antihistamínicos, corticosteroides ou epinefrina, dependendo da gravidade.
+Infecção fúngica: O tratamento para infecções fúngicas pode incluir antifúngicos tópicos ou orais, e cuidados com a higiene.
+Doença do refluxo gastroesofágico (DRGE): O tratamento para DRGE inclui mudanças na dieta, antiácidos, inibidores da bomba de prótons, e, em casos graves, cirurgia.
+Gastroenterite: O tratamento para gastroenterite envolve hidratação oral ou intravenosa, dieta leve, e, em alguns casos, medicamentos antidiarreicos ou antieméticos.
+Ataque cardíaco: O tratamento para ataque cardíaco inclui administração imediata de aspirina, nitroglicerina, medicamentos anticoagulantes, angioplastia, e, em alguns casos, cirurgia de revascularização do miocárdio.
+Hepatite B: O tratamento para hepatite B pode incluir antivirais, interferons, e monitoramento regular da função hepática.
+Hepatite C: O tratamento para hepatite C envolve antivirais de ação direta, que podem curar a doença em muitos casos.
+Hepatite D: O tratamento para hepatite D pode incluir interferons, antivirais, e, em casos graves, transplante de fígado.
+Hepatite E: O tratamento para hepatite E geralmente é de suporte, incluindo repouso, hidratação, e cuidados com a dieta.
+Hipertensão: O tratamento para hipertensão inclui medicamentos antihipertensivos, dieta com baixo teor de sal, exercício regular, e controle do estresse.
+Hipertireoidismo: O tratamento para hipertireoidismo pode incluir medicamentos antitireoideanos, iodo radioativo, e, em alguns casos, cirurgia.
+Hipoglicemia: O tratamento para hipoglicemia envolve a ingestão imediata de glicose, ajustes na dieta, e, em alguns casos, ajustes na medicação para diabetes.
+Impetigo: O tratamento para impetigo inclui antibióticos tópicos ou orais, dependendo da gravidade.
+Icterícia: O tratamento para icterícia depende da causa subjacente e pode incluir tratamento para infecções, hepatite, ou outras condições hepáticas.
+Malária: O tratamento para malária inclui medicamentos antimaláricos como cloroquina, artemisinina ou mefloquina, dependendo da cepa do parasita.
+Enxaqueca: O tratamento para enxaqueca pode incluir analgésicos, triptanos, betabloqueadores, e mudanças no estilo de vida para evitar fatores desencadeantes.
+Osteoartrite: O tratamento para osteoartrite pode incluir analgésicos, AINEs, fisioterapia, e, em casos graves, cirurgia de substituição articular.
+Paralisia (hemorragia cerebral): O tratamento para paralisia devido a hemorragia cerebral pode incluir cuidados intensivos, reabilitação, fisioterapia, e, em alguns casos, cirurgia.
+Doença ulcerosa péptica: O tratamento para doença ulcerosa péptica inclui inibidores da bomba de prótons, antibióticos para erradicação de H. pylori, e mudanças na dieta.
+Pneumonia: O tratamento para pneumonia inclui antibióticos (para pneumonia bacteriana), antivirais (para pneumonia viral), repouso, hidratação, e, em casos graves, hospitalização.
+Psoríase: O tratamento para psoríase pode incluir cremes tópicos, fototerapia, medicamentos imunossupressores, e biológicos.
+Tuberculose: O tratamento para tuberculose inclui uma combinação de antibióticos por um período prolongado (geralmente 6 meses ou mais).
+Febre tifoide: O tratamento para febre tifoide inclui antibióticos, hidratação, e, em alguns casos, hospitalização.
+Infecção do trato urinário: O tratamento para infecção do trato urinário inclui antibióticos, analgésicos para a dor ao urinar, e aumento da ingestão de líquidos.
+Varizes: O tratamento para varizes pode incluir meias de compressão, escleroterapia, procedimentos a laser, e, em casos graves, cirurgia.
+Hepatite A: O tratamento para hepatite A é de suporte, incluindo repouso, hidratação, e cuidados com a dieta.

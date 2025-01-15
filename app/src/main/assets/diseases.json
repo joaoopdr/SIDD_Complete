@@ -1,0 +1,530 @@
+{
+  "doenças": [
+    {
+      "nome": "Infecção fúngica",
+      "sintomas": [
+        "erupções cutâneas nodulares",
+        "coceira",
+        "manchas discrômicas",
+        "erupção cutânea"
+      ]
+    },
+    {
+      "nome": "Alergia",
+      "sintomas": [
+        "calafrios",
+        "lacrimejamento dos olhos",
+        "espirros contínuos",
+        "tremores"
+      ]
+    },
+    {
+      "nome": "DRGE",
+      "sintomas": [
+        "vômito",
+        "dor no peito",
+        "dor de estômago",
+        "úlceras na língua",
+        "tosse",
+        "acidez"
+      ]
+    },
+    {
+      "nome": "Colestase crônica",
+      "sintomas": [
+        "amarelamento dos olhos",
+        "vômito",
+        "coceira",
+        "pele amarelada",
+        "dor abdominal",
+        "náusea",
+        "perda de apetite"
+      ]
+    },
+    {
+      "nome": "Reação a medicamentos",
+      "sintomas": [
+        "coceira",
+        "erupção cutânea",
+        "dor de estômago",
+        "micção ardente",
+        "manchas na urina"
+      ]
+    },
+    {
+      "nome": "Doença ulcerosa péptica",
+      "sintomas": [
+        "vômito",
+        "coceira interna",
+        "dor abdominal",
+        "indigestão",
+        "passagem de gases",
+        "perda de apetite"
+      ]
+    },
+    {
+      "nome": "AIDS",
+      "sintomas": [
+        "desgaste muscular",
+        "manchas na garganta",
+        "febre alta",
+        "contatos extraconjugais"
+      ]
+    },
+    {
+      "nome": "Diabetes",
+      "sintomas": [
+        "letargia",
+        "fadiga",
+        "perda de peso",
+        "fome excessiva",
+        "poliúria",
+        "inquietação",
+        "nível de açúcar irregular",
+        "obesidade",
+        "visão turva e distorcida",
+        "aumento do apetite"
+      ]
+    },
+    {
+      "nome": "Gastroenterite",
+      "sintomas": [
+        "olhos fundos",
+        "vômito",
+        "diarreia",
+        "desidratação"
+      ]
+    },
+    {
+      "nome": "Asma brônquica",
+      "sintomas": [
+        "fadiga",
+        "escarro mucoide",
+        "histórico familiar",
+        "tosse",
+        "febre alta",
+        "falta de ar"
+      ]
+    },
+    {
+      "nome": "Hipertensão",
+      "sintomas": [
+        "perda de equilíbrio",
+        "dor de cabeça",
+        "tontura",
+        "dor no peito",
+        "falta de concentração"
+      ]
+    },
+    {
+      "nome": "Enxaqueca",
+      "sintomas": [
+        "irritabilidade",
+        "dor de cabeça",
+        "fome excessiva",
+        "indigestão",
+        "distúrbios visuais",
+        "depressão",
+        "rigidez no pescoço",
+        "visão turva e distorcida",
+        "acidez"
+      ]
+    },
+    {
+      "nome": "Espondilose cervical",
+      "sintomas": [
+        "perda de equilíbrio",
+        "tontura",
+        "dor no pescoço",
+        "fraqueza nos membros",
+        "dor nas costas"
+      ]
+    },
+    {
+      "nome": "Paralisia (hemorragia cerebral)",
+      "sintomas": [
+        "dor de cabeça",
+        "sensório alterado",
+        "fraqueza de um lado do corpo",
+        "vômito"
+      ]
+    },
+    {
+      "nome": "Icterícia",
+      "sintomas": [
+        "fadiga",
+        "vômito",
+        "coceira",
+        "perda de peso",
+        "pele amarelada",
+        "urina escura",
+        "dor abdominal",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Malária",
+      "sintomas": [
+        "sudorese",
+        "dor muscular",
+        "vômito",
+        "dor de cabeça",
+        "diarreia",
+        "náusea",
+        "calafrios",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Catapora",
+      "sintomas": [
+        "letargia",
+        "fadiga",
+        "dor de cabeça",
+        "coceira",
+        "mal-estar",
+        "manchas vermelhas pelo corpo",
+        "erupção cutânea",
+        "febre leve",
+        "linfonodos inchados",
+        "perda de apetite",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Dengue",
+      "sintomas": [
+        "dor atrás dos olhos",
+        "fadiga",
+        "vômito",
+        "dor de cabeça",
+        "dor muscular",
+        "mal-estar",
+        "náusea",
+        "manchas vermelhas pelo corpo",
+        "calafrios",
+        "erupção cutânea",
+        "dor nas articulações",
+        "dor nas costas",
+        "perda de apetite",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Febre tifoide",
+      "sintomas": [
+        "fadiga",
+        "vômito",
+        "aparência tóxica (tifo)",
+        "dor de cabeça",
+        "dor na barriga",
+        "dor abdominal",
+        "diarreia",
+        "náusea",
+        "calafrios",
+        "constipação",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Hepatite A",
+      "sintomas": [
+        "amarelamento dos olhos",
+        "dor muscular",
+        "vômito",
+        "pele amarelada",
+        "urina escura",
+        "dor abdominal",
+        "náusea",
+        "febre leve",
+        "dor nas articulações",
+        "perda de apetite",
+        "diarreia"
+      ]
+    },
+    {
+      "nome": "Hepatite B",
+      "sintomas": [
+        "letargia",
+        "amarelamento dos olhos",
+        "receber injeções não esterilizadas",
+        "fadiga",
+        "coceira",
+        "pele amarelada",
+        "urina escura",
+        "dor abdominal",
+        "urina amarela",
+        "mal-estar",
+        "receber transfusão de sangue",
+        "perda de apetite"
+      ]
+    },
+    {
+      "nome": "Hepatite C",
+      "sintomas": [
+        "amarelamento dos olhos",
+        "fadiga",
+        "pele amarelada",
+        "histórico familiar",
+        "náusea",
+        "perda de apetite"
+      ]
+    },
+    {
+      "nome": "Hepatite D",
+      "sintomas": [
+        "amarelamento dos olhos",
+        "fadiga",
+        "vômito",
+        "pele amarelada",
+        "urina escura",
+        "dor abdominal",
+        "náusea",
+        "dor nas articulações",
+        "perda de apetite"
+      ]
+    },
+    {
+      "nome": "Hepatite E",
+      "sintomas": [
+        "amarelamento dos olhos",
+        "insuficiência hepática aguda",
+        "fadiga",
+        "vômito",
+        "pele amarelada",
+        "urina escura",
+        "dor abdominal",
+        "náusea",
+        "coma",
+        "dor nas articulações",
+        "perda de apetite",
+        "febre alta",
+        "sangramento no estômago"
+      ]
+    },
+    {
+      "nome": "Hepatite alcoólica",
+      "sintomas": [
+        "vômito",
+        "sobrecarga de líquidos",
+        "pele amarelada",
+        "dor abdominal",
+        "inchaço do estômago",
+        "distensão do abdômen",
+        "histórico de consumo de álcool"
+      ]
+    },
+    {
+      "nome": "Tuberculose",
+      "sintomas": [
+        "sudorese",
+        "amarelamento dos olhos",
+        "fadiga",
+        "vômito",
+        "sangue no escarro",
+        "perda de peso",
+        "mal-estar",
+        "catarro",
+        "dor no peito",
+        "calafrios",
+        "febre leve",
+        "linfonodos inchados",
+        "tosse",
+        "febre alta",
+        "perda de apetite",
+        "falta de ar"
+      ]
+    },
+    {
+      "nome": "Resfriado comum",
+      "sintomas": [
+        "congestão",
+        "perda de olfato",
+        "dor muscular",
+        "fadiga",
+        "espirros contínuos",
+        "dor de cabeça",
+        "irritação na garganta",
+        "mal-estar",
+        "catarro",
+        "dor no peito",
+        "calafrios",
+        "coriza",
+        "pressão nos seios nasais",
+        "linfonodos inchados",
+        "tosse",
+        "vermelhidão nos olhos",
+        "febre alta"
+      ]
+    },
+    {
+      "nome": "Pneumonia",
+      "sintomas": [
+        "sudorese",
+        "escarro ferruginoso",
+        "fadiga",
+        "batimento cardíaco acelerado",
+        "mal-estar",
+        "catarro",
+        "dor no peito",
+        "calafrios",
+        "tosse",
+        "febre alta",
+        "falta de ar"
+      ]
+    },
+    {
+      "nome": "Hemorroidas dimórficas",
+      "sintomas": [
+        "dor durante movimentos intestinais",
+        "constipação",
+        "fezes com sangue",
+        "dor na região anal",
+        "irritação no ânus"
+      ]
+    },
+    {
+      "nome": "Ataque cardíaco",
+      "sintomas": [
+        "sudorese",
+        "dor no peito",
+        "vômito",
+        "falta de ar"
+      ]
+    },
+    {
+      "nome": "Varizes",
+      "sintomas": [
+        "veias proeminentes na panturrilha",
+        "fadiga",
+        "vasos sanguíneos inchados",
+        "pernas inchadas",
+        "cãibras",
+        "obesidade",
+        "hematomas"
+      ]
+    },
+    {
+      "nome": "Hipotireoidismo",
+      "sintomas": [
+        "letargia",
+        "irritabilidade",
+        "extremidades inchadas",
+        "fadiga",
+        "rosto e olhos inchados",
+        "tontura",
+        "mudanças de humor",
+        "mãos e pés frios",
+        "ganho de peso",
+        "depressão",
+        "unhas quebradiças",
+        "menstruação anormal",
+        "tireoide aumentada"
+      ]
+    },
+    {
+      "nome": "Hipertireoidismo",
+      "sintomas": [
+        "sudorese",
+        "irritabilidade",
+        "fadiga",
+        "batimento cardíaco acelerado",
+        "perda de peso",
+        "fome excessiva",
+        "menstruação anormal",
+        "fraqueza muscular",
+        "inquietação",
+        "mudanças de humor",
+        "diarreia"
+      ]
+    },
+    {
+      "nome": "Hipoglicemia",
+      "sintomas": [
+        "sudorese",
+        "irritabilidade",
+        "palpitações",
+        "fadiga",
+        "vômito",
+        "dor de cabeça",
+        "fome excessiva",
+        "secura e formigamento nos lábios",
+        "náusea",
+        "fala arrastada",
+        "visão turva e distorcida",
+        "ansiedade"
+      ]
+    },
+    {
+      "nome": "Osteoartrite",
+      "sintomas": [
+        "inchaço nas articulações",
+        "dor na articulação do quadril",
+        "dor no joelho",
+        "dor no pescoço",
+        "dor nas articulações",
+        "dificuldade para andar"
+      ]
+    },
+    {
+      "nome": "Artrite",
+      "sintomas": [
+        "rigidez de movimento",
+        "inchaço nas articulações",
+        "fraqueza muscular",
+        "dificuldade para andar",
+        "pescoço rígido"
+      ]
+    },
+    {
+      "nome": "Vertigem posicional paroxística",
+      "sintomas": [
+        "perda de equilíbrio",
+        "dor de cabeça",
+        "vômito",
+        "movimentos giratórios",
+        "náusea",
+        "instabilidade"
+      ]
+    },
+    {
+      "nome": "Acne",
+      "sintomas": [
+        "cravos",
+        "erupção cutânea",
+        "espinhas com pus",
+        "cicatrizes"
+      ]
+    },
+    {
+      "nome": "Infecção do trato urinário",
+      "sintomas": [
+        "desconforto na bexiga",
+        "micção ardente",
+        "sensação contínua de urina",
+        "odor fétido da urina"
+      ]
+    },
+    {
+      "nome": "Psoríase",
+      "sintomas": [
+        "unhas inflamadas",
+        "descamação da pele",
+        "erupção cutânea",
+        "cobertura prateada",
+        "dor nas articulações",
+        "pequenas depressões nas unhas"
+      ]
+    },
+    {
+      "nome": "Impetigo",
+      "sintomas": [
+        "bolha",
+        "ferida vermelha ao redor do nariz",
+        "crosta amarela com secreção",
+        "erupção cutânea",
+        "febre alta"
+      ]
+    }
+  ]
+}

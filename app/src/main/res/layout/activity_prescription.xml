@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botões de Seleção de Paciente -->
+    <LinearLayout
+        android:id="@+id/patientSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/btnAddProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Adicionar Perfil"/>
+    </LinearLayout>
+
+    <!-- RecyclerView para exibir a lista de receitas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listViewPrescriptions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/patientSelector"
+        android:layout_above="@id/back_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Botão de Ver Receitas Usadas -->
+    <TextView
+        android:id="@+id/tvUsedPrescriptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receitas Usadas"
+        android:textColor="#007AFF"
+        android:layout_below="@id/listViewPrescriptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botão de Resgatar Receita -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

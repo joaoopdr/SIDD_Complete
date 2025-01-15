@@ -1,0 +1,15 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="Widget.SymptomChecker.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/darkBackgroundColor</item>
+    </style>
+
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LegalDisclaimerActivity">
+
+    <TextView
+        android:id="@+id/legalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aviso_legal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:id="@+id/legalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/agreementCheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/legalTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Section 1: Termos e Condições -->
+            <TextView
+                android:id="@+id/legalText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/termos_e_condicoes"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp" />
+
+            <!-- Section 2: Aceitação dos Termos -->
+            <TextView
+                android:id="@+id/legalText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/aceitacao_termos"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/aceitacao_termos_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 3: Natureza do Serviço -->
+            <TextView
+                android:id="@+id/legalText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/natureza_servico"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/natureza_servico_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 4: Coleta e Uso de Dados -->
+            <TextView
+                android:id="@+id/legalText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/coleta_uso_dados"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:justificationMode="inter_word"
+                android:text="@string/coleta_uso_dados_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 5: Isenção de Responsabilidade -->
+            <TextView
+                android:id="@+id/legalText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/isencao_responsabilidade"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/isencao_responsabilidade_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 6: Uso Responsável -->
+            <TextView
+                android:id="@+id/legalText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/uso_responsavel"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/uso_responsavel_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 7: Comunicação dos Termos -->
+            <TextView
+                android:id="@+id/legalText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/comunicacao_termos"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/comunicacao_termos_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 8: Modificações dos Termos -->
+            <TextView
+                android:id="@+id/legalText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/modificacoes_termos"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/modificacoes_termos_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 9: Encerramento -->
+            <TextView
+                android:id="@+id/legalText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/encerramento"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/encerramento_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 10: Disposições Gerais -->
+            <TextView
+                android:id="@+id/legalText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/disposicoes_gerais"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/disposicoes_gerais_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <!-- Section 11: Contato -->
+            <TextView
+                android:id="@+id/legalText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/contato"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/legalText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/contato_texto"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/agreementCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Eu li e concordo com o acima"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toTopOf="@+id/continueButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Continue"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

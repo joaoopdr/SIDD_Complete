@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ServiceSelectionActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircularImageView"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="2dp" />
+
+    <ImageButton
+        android:id="@+id/info_button"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:src="@drawable/ic_info"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@id/profile_image"
+        android:text="Olá"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/learn_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text=""
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/popular_courses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/learn_prompt"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="@drawable/rounded_corners"
+                android:clipToOutline="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/sidd_info" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/category_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popular_courses"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_picadas">
+
+            <Button
+                android:id="@+id/bite_identifier_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:text="@string/identificador_de_picadas"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lines="2"
+                android:ellipsize="end" />
+
+            <ImageView
+                android:id="@+id/developing_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/ic_bite_identifier"
+                android:scaleX="2.4"
+                android:scaleY="2.4" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_doencas">
+
+            <Button
+                android:id="@+id/symptom_predictor_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:text="@string/previsao_de_doencas"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lines="2"
+                android:ellipsize="end" />
+
+            <ImageView
+                android:id="@+id/designing_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/ic_symptom_predictor"
+                android:scaleX="2.4"
+                android:scaleY="2.4" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_receitas">
+
+            <Button
+                android:id="@+id/prescriptions_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:text="@string/prescricao_medica"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lines="2"
+                android:ellipsize="end" />
+
+            <ImageView
+                android:id="@+id/ai_ml_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/ic_prescriptions"
+                android:scaleX="2.4"
+                android:scaleY="2.4" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_filas">
+
+            <Button
+                android:id="@+id/queue_map_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:text="@string/filas_das_unidades"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="bottom|center_horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lines="2"
+                android:ellipsize="end" />
+
+            <ImageView
+                android:id="@+id/explore_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/ic_queue_map"
+                android:scaleX="2.4"
+                android:scaleY="2.4" />
+        </FrameLayout>
+    </GridLayout>
+</RelativeLayout>

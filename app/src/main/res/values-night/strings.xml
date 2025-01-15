@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">SIDD</string>
+        <string name="aviso_legal">Aviso Legal</string>
+        <string name="termos_e_condicoes">Termos e Condições de Uso do Aplicativo de Diagnóstico Médico por IA</string>
+        <string name="aceitacao_termos">1. Aceitação dos Termos</string>
+        <string name="aceitacao_termos_texto">Ao utilizar nosso aplicativo, você concorda com os Termos e Condições aqui estabelecidos. Caso não concorde com qualquer parte destes termos, você não deve utilizar nosso aplicativo.</string>
+        <string name="natureza_servico">2. Natureza do Serviço</string>
+        <string name="natureza_servico_texto">Nosso aplicativo permite que você insira sintomas e receba um possível diagnóstico baseado na similaridade entre os sintomas fornecidos e os de doenças presentes em nossa base de dados disponível em "XXXXX". É importante ressaltar que:
+    - Os resultados fornecidos pelo aplicativo são gerados por um sistema de Inteligência Artificial e não constituem diagnóstico médico definitivo.
+    - O aplicativo deve ser utilizado como uma ferramenta auxiliar e não substitui a consulta com profissionais de saúde qualificados.
+    - A precisão dos diagnósticos sugeridos pode variar e não é garantida.</string>
+        <string name="coleta_uso_dados">3. Coleta e Uso de Dados</string>
+        <string name="coleta_uso_dados_texto">Dados Coletados: Nosso aplicativo não coleta dados pessoais ou de saúde dos usuários. Após a análise dos sintomas, todas as informações são imediatamente deletadas.
+    Privacidade: Como não coletamos dados, não há armazenamento ou compartilhamento de informações pessoais ou de saúde dos usuários.</string>
+        <string name="isencao_responsabilidade">4. Isenção de Responsabilidade</string>
+        <string name="isencao_responsabilidade_texto">Sem Garantias: O aplicativo é fornecido "como está" e "conforme disponível", sem garantias de qualquer tipo, expressas ou implícitas. Não garantimos que os diagnósticos fornecidos pelo aplicativo serão precisos, completos ou atualizados.
+    Limitação de Responsabilidade: Em nenhuma circunstância seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, especiais ou consequenciais decorrentes do uso ou da incapacidade de uso do aplicativo, mesmo que tenhamos sido avisados da possibilidade de tais danos.</string>
+        <string name="uso_responsavel">5. Uso Responsável</string>
+        <string name="uso_responsavel_texto">Ao utilizar nosso aplicativo, você concorda em:
+    - Utilizar o aplicativo apenas para fins pessoais e informativos.
+    - Não utilizar o aplicativo como substituto de consultas, diagnósticos ou tratamentos médicos realizados por profissionais de saúde qualificados.
+    - Buscar imediatamente a opinião de um profissional de saúde qualificado para qualquer questão médica que possa surgir a partir do uso do aplicativo.</string>
+        <string name="comunicacao_termos">6. Comunicação dos Termos</string>
+        <string name="comunicacao_termos_texto">Através destes Termos e Condições, comunicamos claramente que o aplicativo não substitui o aconselhamento médico profissional. Recomendamos enfaticamente que todos os usuários consultem um profissional de saúde qualificado para diagnósticos e tratamentos médicos.</string>
+        <string name="modificacoes_termos">7. Modificações dos Termos</string>
+        <string name="modificacoes_termos_texto">Reservamo-nos o direito de modificar estes Termos e Condições a qualquer momento. Quaisquer alterações serão publicadas nesta página e a data da última revisão será atualizada. Recomendamos que você reveja estes Termos e Condições periodicamente. O uso continuado do aplicativo após quaisquer alterações constitui aceitação dos novos termos.</string>
+        <string name="encerramento">8. Encerramento</string>
+        <string name="encerramento_texto">Podemos encerrar ou suspender seu acesso ao aplicativo a qualquer momento, sem aviso prévio ou responsabilidade, por qualquer motivo, incluindo, sem limitação, a violação destes Termos e Condições.</string>
+        <string name="disposicoes_gerais">9. Disposições Gerais</string>
+        <string name="disposicoes_gerais_texto">Legislação Aplicável: Estes Termos e Condições são regidos e interpretados de acordo com as leis do [país/estado/região].
+    Resolução de Disputas: Qualquer disputa decorrente destes Termos será resolvida nos tribunais competentes do [país/estado/região].
+    Integralidade do Acordo: Estes Termos constituem o acordo completo entre você e nós em relação ao uso do aplicativo.</string>
+        <string name="contato">10. Contato</string>
+        <string name="contato_texto">Se você tiver qualquer dúvida sobre estes Termos e Condições, por favor, entre em contato conosco através do [endereço de e-mail de suporte].</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="profile_image">Profile Image</string>
+    <string-array name="filter_options">
+        <item>Most Likely</item>
+        <item>Least Likely</item>
+    </string-array>
+    <string name="question_text">Qual é a severidade do sintoma para %1$s?</string>
+    <string name="video_call">Video Call</string>
+    <string name="notification">Notification</string>
+    <string name="voice_call">Voice Call</string>
+    <string name="search">Search</string>
+    <string name="inbox">Inbox</string>
+    <string name="map">Map</string>
+    <string name="chat">Chat</string>
+    <string name="report">Report</string>
+    <string name="calendar">Calendar</string>
+    <string name="tips">Tips</string>
+    <string name="settings">Settings</string>
+    <string name="other">Other</string>
+    <string name="upgrade_message">To Get Unlimited\nUpgrade Your Account!</string>
+    <string name="previsao_de_doencas">Previsão de Doenças</string>
+    <string name="identificador_de_picadas">Identificador de Picadas</string>
+    <string name="prescricao_medica">Minhas Receitas</string>
+    <string name="filas_das_unidades">Filas das Unidades</string>
+    <string name="estoque_de_vacinas">Estoque de Vacinas</string>
+    <string name="filler_text">Filler Text</string>
+    <string name="search_hint">Pesquisar...</string>
+    <string name="selected_image">Imagem Selecionada</string>
+    <string name="take_picture">Tirar Foto</string>
+    <string name="upload_picture">Carregar Foto</string>
+    <string name="back">Voltar</string>
+    <string name="classification_result">Resultado da Classificação</string>
+    <string name="result">Resultado</string>
+</resources>

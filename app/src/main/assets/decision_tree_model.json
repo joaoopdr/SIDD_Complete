@@ -1,0 +1,752 @@
+{
+    "question": "fadiga",
+    "threshold": 0.5,
+    "yes": {
+        "question": "vômito",
+        "threshold": 0.5,
+        "yes": {
+            "question": "erupção cutânea",
+            "threshold": 0.5,
+            "yes": {
+                "question": "perda de equilíbrio",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "inchaço nas articulações",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "febre alta",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "irritabilidade",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "fezes com sangue",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "sensação contínua de urina",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "question": "calafrios",
+                                        "threshold": 0.5,
+                                        "yes": {
+                                            "question": "coceira",
+                                            "threshold": 0.5,
+                                            "yes": {
+                                                "question": "dor no peito",
+                                                "threshold": 0.5,
+                                                "yes": {
+                                                    "question": "diarreia",
+                                                    "threshold": 0.5,
+                                                    "yes": {
+                                                        "question": "dor de cabeça",
+                                                        "threshold": 0.5,
+                                                        "yes": {
+                                                            "question": "dor abdominal",
+                                                            "threshold": 0.5,
+                                                            "yes": {
+                                                                "question": "dor no pescoço",
+                                                                "threshold": 0.5,
+                                                                "yes": {
+                                                                    "question": "obesidade",
+                                                                    "threshold": 0.5,
+                                                                    "yes": {
+                                                                        "question": "espirros contínuos",
+                                                                        "threshold": 0.5,
+                                                                        "yes": {
+                                                                            "diagnosis": "Acne"
+                                                                        },
+                                                                        "no": {
+                                                                            "diagnosis": "Alergia"
+                                                                        }
+                                                                    },
+                                                                    "no": {
+                                                                        "question": "perda de peso",
+                                                                        "threshold": 0.5,
+                                                                        "yes": {
+                                                                            "diagnosis": "Varizes"
+                                                                        },
+                                                                        "no": {
+                                                                            "diagnosis": "Diabetes"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "no": {
+                                                                    "question": "tontura",
+                                                                    "threshold": 0.5,
+                                                                    "yes": {
+                                                                        "diagnosis": "Osteoartrite"
+                                                                    },
+                                                                    "no": {
+                                                                        "diagnosis": "Espondilose cervical"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "no": {
+                                                                "question": "distensão do abdômen",
+                                                                "threshold": 0.5,
+                                                                "yes": {
+                                                                    "diagnosis": "Úlcera péptica"
+                                                                },
+                                                                "no": {
+                                                                    "diagnosis": "Hepatite alcoólica"
+                                                                }
+                                                            }
+                                                        },
+                                                        "no": {
+                                                            "question": "pescoço rígido",
+                                                            "threshold": 0.5,
+                                                            "yes": {
+                                                                "diagnosis": "Paralisia (hemorragia cerebral)"
+                                                            },
+                                                            "no": {
+                                                                "diagnosis": "Enxaqueca"
+                                                            }
+                                                        }
+                                                    },
+                                                    "no": {
+                                                        "question": "urina escura",
+                                                        "threshold": 0.5,
+                                                        "yes": {
+                                                            "diagnosis": "Gastroenterite"
+                                                        },
+                                                        "no": {
+                                                            "diagnosis": "Hepatite A"
+                                                        }
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "sudorese",
+                                                    "threshold": 0.5,
+                                                    "yes": {
+                                                        "question": "dor de cabeça",
+                                                        "threshold": 0.5,
+                                                        "yes": {
+                                                            "diagnosis": "DRGE (Doença do Refluxo Gastroesofágico)"
+                                                        },
+                                                        "no": {
+                                                            "diagnosis": "Hipertensão"
+                                                        }
+                                                    },
+                                                    "no": {
+                                                        "diagnosis": "Ataque cardíaco"
+                                                    }
+                                                }
+                                            },
+                                            "no": {
+                                                "question": "dor abdominal",
+                                                "threshold": 0.5,
+                                                "yes": {
+                                                    "question": "manchas discrômicas",
+                                                    "threshold": 0.5,
+                                                    "yes": {
+                                                        "diagnosis": "Reação medicamentosa"
+                                                    },
+                                                    "no": {
+                                                        "diagnosis": "Infecção fúngica"
+                                                    }
+                                                },
+                                                "no": {
+                                                    "question": "recebendo injeções não estéreis",
+                                                    "threshold": 0.5,
+                                                    "yes": {
+                                                        "diagnosis": "Colestase crônica"
+                                                    },
+                                                    "no": {
+                                                        "diagnosis": "Hepatite B"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "no": {
+                                            "diagnosis": "Alergia"
+                                        }
+                                    },
+                                    "no": {
+                                        "diagnosis": "Infecção do trato urinário"
+                                    }
+                                },
+                                "no": {
+                                    "diagnosis": "Hemorróidas dimórficas"
+                                }
+                            },
+                            "no": {
+                                "question": "menstruação anormal",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Enxaqueca"
+                                },
+                                "no": {
+                                    "question": "fraqueza muscular",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Hipotireoidismo"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Hipertireoidismo"
+                                    }
+                                }
+                            }
+                        },
+                        "no": {
+                            "question": "tosse",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "crosta amarela exsudativa",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "diarreia",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "AIDS"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Malária"
+                                    }
+                                },
+                                "no": {
+                                    "diagnosis": "Impetigo"
+                                }
+                            },
+                            "no": {
+                                "question": "catarro",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Asma brônquica"
+                                },
+                                "no": {
+                                    "question": "sudorese",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Resfriado comum"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Pneumonia"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "no": {
+                        "question": "dor nas articulações",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "dor na articulação do quadril",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Artrite"
+                            },
+                            "no": {
+                                "diagnosis": "Osteoartrite"
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Osteoartrite"
+                        }
+                    }
+                },
+                "no": {
+                    "question": "dor no pescoço",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "falta de concentração",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "náusea",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "dor nas costas",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Hipertensão"
+                                },
+                                "no": {
+                                    "diagnosis": "Espondilose cervical"
+                                }
+                            },
+                            "no": {
+                                "diagnosis": "Vertigem Posicional Paroxística"
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Hipertensão"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Espondilose cervical"
+                    }
+                }
+            },
+            "no": {
+                "question": "coceira",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "pequenas cavidades nas unhas",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "bolha",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "manchas discrômicas",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "espinhas cheias de pus",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "descamação",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "question": "dor de estômago",
+                                        "threshold": 0.5,
+                                        "yes": {
+                                            "question": "crosta amarela exsudativa",
+                                            "threshold": 0.5,
+                                            "yes": {
+                                                "diagnosis": "Psoríase"
+                                            },
+                                            "no": {
+                                                "diagnosis": "Impetigo"
+                                            }
+                                        },
+                                        "no": {
+                                            "diagnosis": "Reação medicamentosa"
+                                        }
+                                    },
+                                    "no": {
+                                        "diagnosis": "Acne"
+                                    }
+                                },
+                                "no": {
+                                    "diagnosis": "Acne"
+                                }
+                            },
+                            "no": {
+                                "diagnosis": "Infecção fúngica"
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Impetigo"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Psoríase"
+                    }
+                },
+                "no": {
+                    "question": "micção com ardor",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "manchas na urina",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "febre alta",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Infecção fúngica"
+                            },
+                            "no": {
+                                "diagnosis": "Catapora"
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Reação medicamentosa"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Reação medicamentosa"
+                    }
+                }
+            }
+        },
+        "no": {
+            "question": "náusea",
+            "threshold": 0.5,
+            "yes": {
+                "question": "dor abdominal",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "dor no peito",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "diarreia",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "alteração do sensório",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "dor de cabeça",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "distensão do abdômen",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "question": "indigestão",
+                                        "threshold": 0.5,
+                                        "yes": {
+                                            "question": "desidratação",
+                                            "threshold": 0.5,
+                                            "yes": {
+                                                "question": "acidez",
+                                                "threshold": 0.5,
+                                                "yes": {
+                                                    "diagnosis": "Ataque cardíaco"
+                                                },
+                                                "no": {
+                                                    "diagnosis": "DRGE (Doença do Refluxo Gastroesofágico)"
+                                                }
+                                            },
+                                            "no": {
+                                                "diagnosis": "Gastroenterite"
+                                            }
+                                        },
+                                        "no": {
+                                            "diagnosis": "Úlcera péptica"
+                                        }
+                                    },
+                                    "no": {
+                                        "diagnosis": "Hepatite alcoólica"
+                                    }
+                                },
+                                "no": {
+                                    "question": "perda de equilíbrio",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Paralisia (hemorragia cerebral)"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Vertigem Posicional Paroxística"
+                                    }
+                                }
+                            },
+                            "no": {
+                                "diagnosis": "Paralisia (hemorragia cerebral)"
+                            }
+                        },
+                        "no": {
+                            "question": "dor de cabeça",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Gastroenterite"
+                            },
+                            "no": {
+                                "diagnosis": "Malária"
+                            }
+                        }
+                    },
+                    "no": {
+                        "question": "tosse",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "dor de estômago",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Ataque cardíaco"
+                            },
+                            "no": {
+                                "diagnosis": "DRGE (Doença do Refluxo Gastroesofágico)"
+                            }
+                        },
+                        "no": {
+                            "question": "perda de apetite",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "DRGE (Doença do Refluxo Gastroesofágico)"
+                            },
+                            "no": {
+                                "diagnosis": "Tuberculose"
+                            }
+                        }
+                    }
+                },
+                "no": {
+                    "question": "sobrecarga de líquidos",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "pele amarelada",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Úlcera péptica"
+                        },
+                        "no": {
+                            "question": "coceira",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "perda de apetite",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Hepatite alcoólica"
+                                },
+                                "no": {
+                                    "diagnosis": "Hepatite A"
+                                }
+                            },
+                            "no": {
+                                "question": "perda de peso",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Colestase crônica"
+                                },
+                                "no": {
+                                    "diagnosis": "Icterícia"
+                                }
+                            }
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Hepatite alcoólica"
+                    }
+                }
+            },
+            "no": {
+                "question": "dor muscular",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "dor de cabeça",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "urina escura",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "perda de equilíbrio",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Colestase crônica"
+                            },
+                            "no": {
+                                "diagnosis": "Vertigem Posicional Paroxística"
+                            }
+                        },
+                        "no": {
+                            "question": "febre alta",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Hepatite D"
+                            },
+                            "no": {
+                                "diagnosis": "Hepatite E"
+                            }
+                        }
+                    },
+                    "no": {
+                        "question": "ansiedade",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Vertigem Posicional Paroxística"
+                        },
+                        "no": {
+                            "diagnosis": "Hipoglicemia"
+                        }
+                    }
+                },
+                "no": {
+                    "question": "amarelamento dos olhos",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "perda de apetite",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Malária"
+                        },
+                        "no": {
+                            "diagnosis": "Dengue"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Hepatite A"
+                    }
+                }
+            }
+        }
+    },
+    "no": {
+        "question": "perda de apetite",
+        "threshold": 0.5,
+        "yes": {
+            "question": "febre alta",
+            "threshold": 0.5,
+            "yes": {
+                "question": "irritabilidade",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "poliúria",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "obesidade",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "mal-estar",
+                            "threshold": 0.5,
+                            "yes": {
+                                "question": "náusea",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "catarro mucoide",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Icterícia"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Asma brônquica"
+                                    }
+                                },
+                                "no": {
+                                    "question": "histórico familiar",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Hepatite D"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Hepatite C"
+                                    }
+                                }
+                            },
+                            "no": {
+                                "question": "perda de olfato",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "question": "urina amarela",
+                                    "threshold": 0.5,
+                                    "yes": {
+                                        "diagnosis": "Pneumonia"
+                                    },
+                                    "no": {
+                                        "diagnosis": "Hepatite B"
+                                    }
+                                },
+                                "no": {
+                                    "diagnosis": "Resfriado comum"
+                                }
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Varizes"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Diabetes"
+                    }
+                },
+                "no": {
+                    "question": "fraqueza muscular",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "palpitações",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Hipotireoidismo"
+                        },
+                        "no": {
+                            "diagnosis": "Hipoglicemia"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Hipertireoidismo"
+                    }
+                }
+            },
+            "no": {
+                "question": "dor no peito",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "calafrios",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "vômito",
+                        "threshold": 0.5,
+                        "yes": {
+                            "question": "coceira",
+                            "threshold": 0.5,
+                            "yes": {
+                                "diagnosis": "Asma brônquica"
+                            },
+                            "no": {
+                                "question": "manchas vermelhas pelo corpo",
+                                "threshold": 0.5,
+                                "yes": {
+                                    "diagnosis": "Icterícia"
+                                },
+                                "no": {
+                                    "diagnosis": "Catapora"
+                                }
+                            }
+                        },
+                        "no": {
+                            "diagnosis": "Icterícia"
+                        }
+                    },
+                    "no": {
+                        "diagnosis": "Febre tifóide"
+                    }
+                },
+                "no": {
+                    "question": "pressão nos seios da face",
+                    "threshold": 0.5,
+                    "yes": {
+                        "diagnosis": "Pneumonia"
+                    },
+                    "no": {
+                        "diagnosis": "Resfriado comum"
+                    }
+                }
+            }
+        },
+        "no": {
+            "question": "mal-estar",
+            "threshold": 0.5,
+            "yes": {
+                "question": "sangramento estomacal",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "vômito",
+                    "threshold": 0.5,
+                    "yes": {
+                        "question": "urina escura",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Hepatite C"
+                        },
+                        "no": {
+                            "diagnosis": "Hepatite D"
+                        }
+                    },
+                    "no": {
+                        "question": "calafrios",
+                        "threshold": 0.5,
+                        "yes": {
+                            "diagnosis": "Hepatite D"
+                        },
+                        "no": {
+                            "diagnosis": "Dengue"
+                        }
+                    }
+                },
+                "no": {
+                    "diagnosis": "Hepatite E"
+                }
+            },
+            "no": {
+                "question": "amarelamento dos olhos",
+                "threshold": 0.5,
+                "yes": {
+                    "question": "dor atrás dos olhos",
+                    "threshold": 0.5,
+                    "yes": {
+                        "diagnosis": "Catapora"
+                    },
+                    "no": {
+                        "diagnosis": "Dengue"
+                    }
+                },
+                "no": {
+                    "question": "febre leve",
+                    "threshold": 0.5,
+                    "yes": {
+                        "diagnosis": "Hepatite B"
+                    },
+                    "no": {
+                        "diagnosis": "Tuberculose"
+                    }
+                }
+            }
+        }
+    }
+}

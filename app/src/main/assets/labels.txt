@@ -1,0 +1,22 @@
+Acne
+Ceratoses Actínicas
+Tumores Benignos
+Bolhosas
+Candidíase
+Eritema Medicamentoso
+Eczema
+Infestações/Picadas
+Líquen
+Lúpus
+Nevo (Pintas)
+Psoríase
+Rosácea
+Ceratoses Seborreicas
+Câncer de Pele
+Danos Solares
+Tinea (Micose)
+Normal/Desconhecido
+Tumores Vasculares
+Vasculite
+Vitiligo
+Verrugas
